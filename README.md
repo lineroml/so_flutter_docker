@@ -31,10 +31,14 @@ docker run -i -p 8080:5000 -td flutter_dashboard
 
 1. [Flutter Dashboard Demo](https://morioh.com/p/fd4bce4016b8)
 2. [Containerizing Flutter web apps with Docker](https://blog.logrocket.com/containerizing-flutter-web-apps-with-docker/)
+3. [DockerHub Repositories Documentation](https://docs.docker.com/docker-hub/repos/)
 
 ## Made by
 
 1. Arnaldo Benavides
 2. Luisa Escobar
 
+## Link to DockerHub repo
+
+- [flutter-dashboard repo](https://hub.docker.com/repository/docker/200125556/flutter_dashboard)
 
