@@ -44,9 +44,11 @@ docker run -i -p 8080:5000 -td flutter_dashboard
 
 ## Run with [Docker Playground](https://labs.play-with-docker.com)
 
-Execute following code in a new instance in Docker Playground:
+1. Execute following code in a new instance (Click in "New Instance") in Docker Playground:
 ```
 docker pull 200125556/flutter_dashboard:final
 docker run -i -p 8080:5000 -td 200125556/flutter_dashboard:final
 ```
+Note: You can copy with ctrl + shift + v 
 
+2. Click on port 8080 and enjoy!
