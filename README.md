@@ -13,6 +13,19 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+
+## Run with [Docker Playground](https://labs.play-with-docker.com)
+
+1. Execute following code in a new instance (Click in "New Instance") in Docker Playground:
+```
+docker pull 200125556/flutter_dashboard:final
+docker run -i -p 8080:5000 -td 200125556/flutter_dashboard:final
+```
+Note: You can copy with ctrl + shift + v 
+
+2. Click on port 8080 and enjoy!
+
+
 ## How to run in docker
 
 Open cmd (ctrl + r, type cmd, enter). <br>
@@ -41,14 +54,3 @@ docker run -i -p 8080:5000 -td flutter_dashboard
 ## Link to DockerHub repo
 
 - [flutter-dashboard repo](https://hub.docker.com/repository/docker/200125556/flutter_dashboard)
-
-## Run with [Docker Playground](https://labs.play-with-docker.com)
-
-1. Execute following code in a new instance (Click in "New Instance") in Docker Playground:
-```
-docker pull 200125556/flutter_dashboard:final
-docker run -i -p 8080:5000 -td 200125556/flutter_dashboard:final
-```
-Note: You can copy with ctrl + shift + v 
-
-2. Click on port 8080 and enjoy!
