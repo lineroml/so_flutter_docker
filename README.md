@@ -42,3 +42,11 @@ docker run -i -p 8080:5000 -td flutter_dashboard
 
 - [flutter-dashboard repo](https://hub.docker.com/repository/docker/200125556/flutter_dashboard)
 
+## Run with [Docker Playground](https://labs.play-with-docker.com)
+
+Execute following code in a new instance in Docker Playground:
+```
+docker pull 200125556/flutter_dashboard:final
+docker run -i -p 8080:5000 -td 200125556/flutter_dashboard:final
+```
+
