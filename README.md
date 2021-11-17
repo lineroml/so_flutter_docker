@@ -21,7 +21,7 @@ samples, guidance on mobile development, and a full API reference.
 docker pull 200125556/flutter_dashboard:final
 docker run -i -p 8080:5000 -td 200125556/flutter_dashboard:final
 ```
-Note: You can copy with ctrl + shift + v 
+Note: You can paste with ctrl + shift + v 
 
 2. Click on port 8080 and enjoy!
 
